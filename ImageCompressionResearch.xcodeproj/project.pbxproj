@@ -13,9 +13,16 @@
 		18807C3E2235ED9D00DE7183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18807C3D2235ED9D00DE7183 /* Assets.xcassets */; };
 		18807C412235ED9D00DE7183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18807C3F2235ED9D00DE7183 /* LaunchScreen.storyboard */; };
 		18807C442235ED9E00DE7183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18807C432235ED9E00DE7183 /* main.m */; };
+		18807C4B2235EFFD00DE7183 /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18807C4A2235EFFD00DE7183 /* 5.jpeg */; };
+		18807C4D2235F04200DE7183 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18807C4C2235F04200DE7183 /* 4.jpg */; };
+		18807C4F2235F04E00DE7183 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18807C4E2235F04D00DE7183 /* 3.png */; };
+		18807C512235F07200DE7183 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18807C502235F07200DE7183 /* 2.jpg */; };
+		18807C532235F08D00DE7183 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18807C522235F08D00DE7183 /* 1.png */; };
+		601B2096A8E67C12583A51FC /* libPods-ImageCompressionResearch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D245A8BC9135BBAB0F4CC0 /* libPods-ImageCompressionResearch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0099E5AFD454C7A97147592B /* Pods-ImageCompressionResearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageCompressionResearch.release.xcconfig"; path = "Target Support Files/Pods-ImageCompressionResearch/Pods-ImageCompressionResearch.release.xcconfig"; sourceTree = "<group>"; };
 		18807C312235ED9C00DE7183 /* ImageCompressionResearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCompressionResearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18807C342235ED9C00DE7183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18807C352235ED9C00DE7183 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +33,13 @@
 		18807C402235ED9D00DE7183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18807C422235ED9E00DE7183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18807C432235ED9E00DE7183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18807C4A2235EFFD00DE7183 /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		18807C4C2235F04200DE7183 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		18807C4E2235F04D00DE7183 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		18807C502235F07200DE7183 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		18807C522235F08D00DE7183 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		43D245A8BC9135BBAB0F4CC0 /* libPods-ImageCompressionResearch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImageCompressionResearch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		909280CC9EE018C18C711E04 /* Pods-ImageCompressionResearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageCompressionResearch.debug.xcconfig"; path = "Target Support Files/Pods-ImageCompressionResearch/Pods-ImageCompressionResearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601B2096A8E67C12583A51FC /* libPods-ImageCompressionResearch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +59,8 @@
 			children = (
 				18807C332235ED9C00DE7183 /* ImageCompressionResearch */,
 				18807C322235ED9C00DE7183 /* Products */,
+				28637D7D9BC9934E9BC07FC9 /* Pods */,
+				4A24C7334B7AABB383A2C08A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +79,11 @@
 				18807C352235ED9C00DE7183 /* AppDelegate.m */,
 				18807C372235ED9C00DE7183 /* ViewController.h */,
 				18807C382235ED9C00DE7183 /* ViewController.m */,
+				18807C522235F08D00DE7183 /* 1.png */,
+				18807C502235F07200DE7183 /* 2.jpg */,
+				18807C4E2235F04D00DE7183 /* 3.png */,
+				18807C4C2235F04200DE7183 /* 4.jpg */,
+				18807C4A2235EFFD00DE7183 /* 5.jpeg */,
 				18807C3A2235ED9C00DE7183 /* Main.storyboard */,
 				18807C3D2235ED9D00DE7183 /* Assets.xcassets */,
 				18807C3F2235ED9D00DE7183 /* LaunchScreen.storyboard */,
@@ -71,6 +93,23 @@
 			path = ImageCompressionResearch;
 			sourceTree = "<group>";
 		};
+		28637D7D9BC9934E9BC07FC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				909280CC9EE018C18C711E04 /* Pods-ImageCompressionResearch.debug.xcconfig */,
+				0099E5AFD454C7A97147592B /* Pods-ImageCompressionResearch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A24C7334B7AABB383A2C08A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43D245A8BC9135BBAB0F4CC0 /* libPods-ImageCompressionResearch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +117,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18807C472235ED9E00DE7183 /* Build configuration list for PBXNativeTarget "ImageCompressionResearch" */;
 			buildPhases = (
+				9D500162AE992DB15AF6F10A /* [CP] Check Pods Manifest.lock */,
 				18807C2D2235ED9C00DE7183 /* Sources */,
 				18807C2E2235ED9C00DE7183 /* Frameworks */,
 				18807C2F2235ED9C00DE7183 /* Resources */,
@@ -128,13 +168,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18807C4F2235F04E00DE7183 /* 3.png in Resources */,
+				18807C512235F07200DE7183 /* 2.jpg in Resources */,
+				18807C532235F08D00DE7183 /* 1.png in Resources */,
 				18807C412235ED9D00DE7183 /* LaunchScreen.storyboard in Resources */,
 				18807C3E2235ED9D00DE7183 /* Assets.xcassets in Resources */,
 				18807C3C2235ED9C00DE7183 /* Main.storyboard in Resources */,
+				18807C4B2235EFFD00DE7183 /* 5.jpeg in Resources */,
+				18807C4D2235F04200DE7183 /* 4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D500162AE992DB15AF6F10A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageCompressionResearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18807C2D2235ED9C00DE7183 /* Sources */ = {
@@ -283,35 +353,39 @@
 		};
 		18807C482235ED9E00DE7183 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 909280CC9EE018C18C711E04 /* Pods-ImageCompressionResearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2E8NVCJR97;
 				INFOPLIST_FILE = ImageCompressionResearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yinhe.ImageCompressionResearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		18807C492235ED9E00DE7183 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0099E5AFD454C7A97147592B /* Pods-ImageCompressionResearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2E8NVCJR97;
 				INFOPLIST_FILE = ImageCompressionResearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yinhe.ImageCompressionResearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
